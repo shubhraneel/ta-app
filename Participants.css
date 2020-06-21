@@ -1,0 +1,56 @@
+.notification-contain-enter {
+  transform: translateY(200%) scale(0) !important;
+  opacity: 0.5;
+  transition: all .25s;
+}
+.notification-contain-enter.notification-contain-enter-active {
+  transform: translateY(0) scale(1) !important;
+  opacity: 1;
+}
+.notification-contain-exit {
+  transform: translateY(0) scale(1) !important;
+  opacity: 1;
+  transition: all .25s;
+}
+.notification-contain-exit.notification-contain-exit-active {
+  transform: translateY(0) scale(1.1) !important;
+  opacity: 0;
+}
+
+.participant-enter {
+  transform: scaleY(0);
+  opacity: 0;
+  transition: all 0.5s ease-in;
+}
+.participant-enter-active {
+  transform: scaleY(1);
+  opacity: 1;
+}
+.participant-exit {
+  transform: scaleY(1);
+  opacity: 1;
+  transition: all 0.5s ease-out;
+}
+.participant-exit-active {
+  transform: scaleY(0);
+  opacity: 0;
+}
+
+.delete-pop-enter {
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+  transition: all .5s ease;
+}
+.delete-pop-enter-active {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1
+}
+.delete-pop-exit {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+  transition: all .5s ease;
+}
+.delete-pop-exit-active {
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+}

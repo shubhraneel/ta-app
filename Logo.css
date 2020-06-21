@@ -1,0 +1,16 @@
+.logo-TA {
+  font-family: Roboto Slab, sans-serif;
+  font-size: 4rem;
+  line-height: 5rem;
+
+  color: #FFFFFF;
+}
+
+.logo-assist {
+  font-family: Roboto Condensed;
+  font-style: italic;
+  font-size: 3rem;
+  line-height: 3.5rem;
+
+  color: #FFF0E7;
+}

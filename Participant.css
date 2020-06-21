@@ -1,0 +1,131 @@
+.participants-heading {
+  font-family: 'Rosario', sans-serif;
+  color: rgb(255, 184, 78);
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.participants-heading-code {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+}
+
+.participant-card {
+  background: #FEFEFE;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: #7D7D7D;
+  width: 80%;
+  height: 7rem;
+  position: relative;
+  margin: 2rem 0;
+}
+
+.participant-name {
+  font-weight: 500;
+  padding: 2rem 2rem 2rem 4rem;
+  width: 50%;
+  display: inline-block;
+}
+
+.participant-roll {
+  font-weight: 600;
+  padding: 2rem 3rem;
+  background: rgba(255, 230, 0, 0.25);
+  clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%);
+  display: inline-block;
+  width: 23.4rem;
+  text-align: center;
+}
+
+.participant-delete {
+  display: inline-block;
+  height: 100%;
+  padding: 1.2rem 1.2rem 1.5rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* .add-all-button-container {
+  text-align: center;
+  width: 80%;
+} */
+
+.add-all-button {
+  /* border-radius: 0 100px 100px 0;*/
+  border-radius: 100px;
+  border-color: rgb(255, 184, 78);
+  border-style: solid;
+  border-width: 3px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  padding: 1rem 3rem;
+  margin: 2rem 0;
+  font-size: 2.5rem;
+  color: #7D7D7D;
+  font-family: 'Montserrat', sans-serif;
+  background-image: linear-gradient(to right, rgb(255, 184, 78) 0, rgb(255, 184, 78) 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right;
+  transition: all cubic-bezier(0.4, 0.89, 0.76, 0.95) .4s;
+  cursor: pointer;
+  transform-origin: left;
+}
+
+.add-all-button:hover {
+  background-position: left;
+  color: white;
+  transform: scaleX(1.05);
+}
+
+@media (max-width: 900px) {
+  .participant-name {
+    text-align: left;
+  }
+  .participant-card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 660px) {
+  .participant-card {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    grid-template-rows: 4rem 2rem;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .participant-name {
+    display: block;
+    grid-column: 1;
+    grid-row: 1;
+    padding: 2rem 2rem 2rem;
+    width: 100%;
+  }
+
+  .participant-roll {
+    display: block;
+    grid-column: 1;
+    grid-row: 2;
+    background: none;
+    font-size: 1.8rem;
+    text-align: left;
+    padding: 2rem 2rem 3rem;
+    color: #9e9e9e;
+    margin-top: 1rem;
+  }
+
+  .participant-delete {
+    display: block;
+    grid-column: 2;
+    grid-row: 1 2;
+  }
+}

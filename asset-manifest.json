@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ta-app/static/css/main.efbd2191.chunk.css",
-    "main.js": "/ta-app/static/js/main.c1c7dea8.chunk.js",
-    "main.js.map": "/ta-app/static/js/main.c1c7dea8.chunk.js.map",
+    "main.js": "/ta-app/static/js/main.fcc16f60.chunk.js",
+    "main.js.map": "/ta-app/static/js/main.fcc16f60.chunk.js.map",
     "runtime-main.js": "/ta-app/static/js/runtime-main.39ab7aed.js",
     "runtime-main.js.map": "/ta-app/static/js/runtime-main.39ab7aed.js.map",
     "static/js/2.f30340a2.chunk.js": "/ta-app/static/js/2.f30340a2.chunk.js",
     "static/js/2.f30340a2.chunk.js.map": "/ta-app/static/js/2.f30340a2.chunk.js.map",
     "index.html": "/ta-app/index.html",
-    "precache-manifest.48397d9aac4eb5169c3ef56ddc1cb3e3.js": "/ta-app/precache-manifest.48397d9aac4eb5169c3ef56ddc1cb3e3.js",
+    "precache-manifest.d9d4cdf8d8679a9aa82b603728479147.js": "/ta-app/precache-manifest.d9d4cdf8d8679a9aa82b603728479147.js",
     "service-worker.js": "/ta-app/service-worker.js",
     "static/css/main.efbd2191.chunk.css.map": "/ta-app/static/css/main.efbd2191.chunk.css.map",
     "static/js/2.f30340a2.chunk.js.LICENSE.txt": "/ta-app/static/js/2.f30340a2.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.39ab7aed.js",
     "static/js/2.f30340a2.chunk.js",
     "static/css/main.efbd2191.chunk.css",
-    "static/js/main.c1c7dea8.chunk.js"
+    "static/js/main.fcc16f60.chunk.js"
   ]
 }
